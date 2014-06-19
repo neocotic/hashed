@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+'use strict';
+
+// Internal dependencies.
+var cli = require('../lib/cli');
+
+// Initiate the command line interface.
+cli(process.argv);

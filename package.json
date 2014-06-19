@@ -1,0 +1,40 @@
+{
+  "name": "hashed",
+  "description": "Adaptable hash table generator",
+  "version": "0.1.0",
+  "homepage": "https://github.com/neocotic/hashed",
+  "bugs": {
+    "url": "https://github.com/neocotic/hashed/issues"
+  },
+  "author": {
+    "name": "Alasdair Mercer",
+    "email": "mercer.alasdair@gmail.com",
+    "url": "http://neocotic.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/neocotic/hashed/raw/master/LICENSE.md"
+    }
+  ],
+  "keywords": [
+    "hash",
+    "table",
+    "cryptography"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/neocotic/hashed.git"
+  },
+  "dependencies": {
+    "async": "~0.2.5",
+    "commander": "~2.2.0"
+  },
+  "devDependencies": {
+    "nodeunit": "~0.9.0"
+  },
+  "scripts": {
+    "test": "nodeunit test"
+  },
+  "main": "lib/hashed.js"
+}
